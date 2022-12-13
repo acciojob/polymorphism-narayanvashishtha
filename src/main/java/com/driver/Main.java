@@ -16,14 +16,9 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        int ans, ans1;
-        double sol;
         Product p = new Product();
-        ans1 = p.product(3,4);
-        ans = p.product(3,4,5);
-        sol = p.product(3.4,5.5);
-        System.out.println(ans1);
-        System.out.println(ans);
-        System.out.println(sol);
+        p.product(3,4);
+        p.product(3,4,5);
+        p.product(3.4,5.5);
     }
 }
